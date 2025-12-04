@@ -1,0 +1,17 @@
+name = "Grind enchantments"
+filename = "grind-enchantments-4.1.0+1.21.11-pre2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WC4UgDcZ/versions/XX0LqtxX/grind-enchantments-4.1.0%2B1.21.11-pre2.jar"
+hash-format = "sha512"
+hash = "55538e5041515100b608722f83c8e6e22f9b9102995b6c4c305db749f754c69e50db4907d8d9ffec8861ec85ea5f171da73916e2e465bb3dea38d872579bf4f6"
+
+[update]
+[update.modrinth]
+mod-id = "WC4UgDcZ"
+version = "XX0LqtxX"
+
+[update.curseforge]
+file-id = 7246040
+project-id = 379680
