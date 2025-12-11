@@ -28,3 +28,8 @@ metafile = true
 file = "mods/promotedserver.pw.toml"
 hash = "cc53ad43e9b83e554e2ab1991aaa259151a30db78d14e1f011be6391d2a90f2c"
 metafile = true
+
+[[files]]
+file = "mods/x-bar-theory.pw.toml"
+hash = "c9a7e56ea1d681cbfd447b495a2f3f6ebf5fedd9b81d4febec5a76f6e14bfb6b"
+metafile = true
