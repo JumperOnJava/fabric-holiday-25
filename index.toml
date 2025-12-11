@@ -31,5 +31,5 @@ metafile = true
 
 [[files]]
 file = "mods/x-bar-theory.pw.toml"
-hash = "c9a7e56ea1d681cbfd447b495a2f3f6ebf5fedd9b81d4febec5a76f6e14bfb6b"
+hash = "f4103d58d6d0eec24602dc505ab67d0a6aa5182ad254096818ecaf1f2bafe799"
 metafile = true
