@@ -40,6 +40,11 @@ hash = "c7cc3907e7adb7b30249dc2b5ccd3e30111d562475087e0188f00fb3bc5837de"
 metafile = true
 
 [[files]]
+file = "mods/immersive-overlays.pw.toml"
+hash = "9f0cee82eb8f94ef97085a9b532526fce88c3cead8c4b402a129a5cee11c07cd"
+metafile = true
+
+[[files]]
 file = "mods/promotedserver.pw.toml"
 hash = "cc53ad43e9b83e554e2ab1991aaa259151a30db78d14e1f011be6391d2a90f2c"
 metafile = true
