@@ -3,6 +3,7 @@ set -e
 cd mod
 chmod +x ./gradlew
 ./gradlew clean build
+rm build/libs/*-sources.jar
 cd ..
 cp mod/build/libs/* mods
 packwiz refresh --build
