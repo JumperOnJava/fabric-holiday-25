@@ -1,107 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
-file = "build/config/promotedserver/servers.dat"
-
-[[files]]
-file = "build/index.toml"
-
-[[files]]
-file = "build/mods/ChainStyleWither-1.7.0.jar"
-
-[[files]]
-file = "build/mods/anchorteleportsystem.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/apothicspawners-0.0.1.jar"
-
-[[files]]
-file = "build/mods/badpackets.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/cloth-config.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/crossbow_scoping.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/ellies-storage-options.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/fabric-api.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/fabric-language-kotlin.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/grind-enchantments.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/holiday-server-mod-0.0.0.jar"
-
-[[files]]
-file = "build/mods/immersive-overlays.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/inline-tooltips.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/instant-feedback.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/laseredstone.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/modmenu.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/placeholder-api.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/polymer.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/promotedserver.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/wthit.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/mods/x-bar-theory.pw.toml"
-metafile = true
-
-[[files]]
-file = "build/pack.toml"
-
-[[files]]
 file = "config/promotedserver/servers.dat"
 
 [[files]]
 file = "mods/ChainStyleWither-1.7.0.jar"
 
 [[files]]
+file = "mods/DarkUtilities-Common-1.21.11-19.0.jar"
+
+[[files]]
 file = "mods/anchorteleportsystem.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/apothicspawners-0.0.1.jar"
+file = "mods/antipothicspawners-0.0.2.jar"
 
 [[files]]
 file = "mods/badpackets.pw.toml"

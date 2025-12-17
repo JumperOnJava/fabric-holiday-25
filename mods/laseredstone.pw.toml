@@ -1,13 +1,13 @@
 name = "Laseredstone"
-filename = "laseredstone-1.1.1+1.21.11.jar"
+filename = "laseredstone-1.1.2+1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jlbb1hKs/versions/ySWv6Zet/laseredstone-1.1.1%2B1.21.11.jar"
-hash-format = "sha256"
-hash = "b8595939e097f21948f599760f75dc03abe47a73aa8c8440ce6e9a02f3eb9167"
+url = "https://cdn.modrinth.com/data/jlbb1hKs/versions/mu5FONTS/laseredstone-1.1.2%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "d7e87dc00bf69a3b6562bace019f7b30231a7aa9ba6ffe2a003871c305247423edefbfdd1374147401f4ae55e6244b32b5e80905f666d5630981cb546d09a4bc"
 
 [update]
 [update.modrinth]
 mod-id = "jlbb1hKs"
-version = "ySWv6Zet"
+version = "mu5FONTS"
