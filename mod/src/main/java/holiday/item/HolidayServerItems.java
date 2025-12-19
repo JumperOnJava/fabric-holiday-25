@@ -23,6 +23,9 @@ import net.minecraft.util.Unit;
 import java.util.function.Function;
 
 public final class HolidayServerItems {
+    public static final Item REDSTONE_SAND = register("redstone_sand", settings -> new BlockItem(HolidayServerBlocks.REDSTONE_SAND, settings
+            .useBlockPrefixedTranslationKey()));
+
     public static final Item TINY_POTATO = register("tiny_potato", settings -> new BlockItem(HolidayServerBlocks.TINY_POTATO, settings
             .useBlockPrefixedTranslationKey()
             .equippableUnswappable(EquipmentSlot.HEAD)));
@@ -71,6 +74,10 @@ public final class HolidayServerItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.addBefore(Items.SKELETON_SKULL, TINY_POTATO);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {
+            entries.addAfter(Items.REDSTONE_BLOCK, REDSTONE_SAND);
         });
     }
 
