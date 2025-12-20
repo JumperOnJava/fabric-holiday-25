@@ -10,6 +10,7 @@ public class DatagenEntrypoint implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator dataGenerator) {
         FabricDataGenerator.Pack pack = dataGenerator.createPack();
 
+        pack.addProvider(HolidayServerBlockLootTableProvider::new);
         pack.addProvider(HolidayServerPaintingVariantProvider::new);
         pack.addProvider(HolidayServerPaintingVariantTagProvider::new);
     }
