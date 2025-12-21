@@ -6,6 +6,7 @@
   "mixins": [
     "EndPortalBlockMixin",
     "EntityMixin",
+    "LevelStorageMixin",
     "LivingEntityMixin",
     "ServerPlayNetworkHandlerMixin",
     "WhitelistCommandMixin"
