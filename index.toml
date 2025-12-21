@@ -17,6 +17,10 @@ metafile = true
 file = "mods/antipothicspawners-0.0.3.jar"
 
 [[files]]
+file = "mods/anvil-too-expensive-fix.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/badpackets.pw.toml"
 metafile = true
 

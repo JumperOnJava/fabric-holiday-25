@@ -1,0 +1,13 @@
+name = "Anvil Too Expensive Fix"
+filename = "anvil-too-expensive-fix-1.0.1+1.21.X.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MDKUiifD/versions/UGZJ97oB/anvil-too-expensive-fix-1.0.1%2B1.21.X.jar"
+hash-format = "sha512"
+hash = "be458b8ff1fa0a700caaf19615de168c57527db679194d41c63ac04790e3a87750ae3f1b4afcac443bc96050e8ff03f6bc0ced476121b0687df22973ac778c93"
+
+[update]
+[update.modrinth]
+mod-id = "MDKUiifD"
+version = "UGZJ97oB"
