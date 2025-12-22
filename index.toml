@@ -137,6 +137,10 @@ file = "mods/universal-graves.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/weird-wares.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/wthit.pw.toml"
 metafile = true
 
