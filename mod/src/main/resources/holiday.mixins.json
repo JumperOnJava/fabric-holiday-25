@@ -11,12 +11,15 @@
     "EndPortalBlockMixin",
     "EntityMixin",
     "HopperBlockEntityMixin",
+    "InventorySlotWrapperMixin",
+    "InventoryStorageImplAccessor",
     "ItemEntityMixin",
     "ItemStackMixin",
     "LivingEntityMixin",
     "LootContextTypesAccessor",
     "RedstoneTorchBlockMixin",
     "ServerPlayNetworkHandlerMixin",
+    "SingleStackStorageMixin",
     "WhitelistCommandMixin"
   ],
   "client": [
