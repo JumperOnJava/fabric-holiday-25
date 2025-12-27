@@ -17,6 +17,7 @@
     "LootContextTypesAccessor",
     "RedstoneTorchBlockMixin",
     "ServerPlayNetworkHandlerMixin",
+    "SlipperyMixin",
     "WhitelistCommandMixin"
   ],
   "client": [
