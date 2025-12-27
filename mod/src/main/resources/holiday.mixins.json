@@ -29,7 +29,8 @@
     "ClientPlayerEntityMixin",
     "GameMenuScreenAccessor",
     "HeldItemRendererMixin",
-    "MinecraftClientMixin"
+    "MinecraftClientMixin",
+    "WitherEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
