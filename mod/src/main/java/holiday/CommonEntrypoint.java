@@ -7,6 +7,7 @@ import holiday.component.HolidayServerDataComponentTypes;
 import holiday.event.EndermanParalyzeEvent;
 import holiday.item.HolidayServerItems;
 import holiday.loot.HolidayServerLootContextTypes;
+import holiday.mod.BaritoneInit;
 import holiday.sound.HolidayServerSoundEvents;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.attachment.v1.AttachmentRegistry;
@@ -82,6 +83,7 @@ public class CommonEntrypoint implements ModInitializer {
         HolidayServerLootContextTypes.register();
         HolidayServerSoundEvents.register();
         HolidayServerBlockEntities.register();
+        BaritoneInit.onInitialize();
 
         DispenserBehavior oldBucketBehavior = DispenserBlock.BEHAVIORS.get(Items.BUCKET);
         DispenserBehavior bucketBehavior = (pointer, stack) -> {

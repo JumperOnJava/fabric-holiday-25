@@ -49,5 +49,7 @@
   "painting.holiday-server-mod.outdated.author": "Fabric Contributors",
   "item.more_than_a_foxbox.plushie.holiday-server-mod.axolotl": "Axolotl Plushie",
   "item.more_than_a_foxbox.plushie.holiday-server-mod.tater": "Tater Plushie",
-  "subtitles.holiday-server-mod.tater_hurt": "Tater Plushie hurt"
+  "subtitles.holiday-server-mod.tater_hurt": "Tater Plushie hurt",
+  "item.holiday-server-mod.baritone": "Baritone",
+  "subtitles.baritone": "Baritone plays"
 }
