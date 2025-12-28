@@ -54,5 +54,6 @@
   "item.minecraft.potion.effect.slippery": "Slippery",
   "item.minecraft.potion.effect.long_slippery": "Long slippery",
   "item.holiday-server-mod.baritone": "Baritone",
-  "subtitles.baritone": "Baritone plays"
+  "subtitles.baritone": "Baritone plays",
+  "gamerule.holiday-server-mod.endportal_enabled": "End portal enabled"
 }

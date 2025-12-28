@@ -3,20 +3,22 @@ package holiday.item;
 import holiday.CommonEntrypoint;
 import holiday.block.HolidayServerBlocks;
 import holiday.component.HolidayServerDataComponentTypes;
+import holiday.tag.HolidayServerBannerPatternTags;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.entity.BannerPattern;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.EquippableComponent;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.Potions;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.tag.BannerPatternTags;
-import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Unit;
 
@@ -33,8 +35,8 @@ public final class HolidayServerItems {
     public static final Item ENDER_PARALYZER = register("ender_paralyzer", settings -> new BlockItem(HolidayServerBlocks.ENDER_PARALYZER, settings
         .useBlockPrefixedTranslationKey()));
 
-    public static final Item FABRIC_PATTERN_ITEM = register("fabric_banner_pattern", new Item.Settings().maxCount(1).component(DataComponentTypes.PROVIDES_BANNER_PATTERNS, patternTagOf("pattern_item/fabric")));
-    public static final Item TATER_PATTERN_ITEM = register("tater_banner_pattern", new Item.Settings().maxCount(1).component(DataComponentTypes.PROVIDES_BANNER_PATTERNS, patternTagOf("pattern_item/tater")));
+    public static final Item FABRIC_PATTERN_ITEM = register("fabric_banner_pattern", new Item.Settings().maxCount(1).component(DataComponentTypes.PROVIDES_BANNER_PATTERNS, HolidayServerBannerPatternTags.FABRIC_PATTERN_ITEM));
+    public static final Item TATER_PATTERN_ITEM = register("tater_banner_pattern", new Item.Settings().maxCount(1).component(DataComponentTypes.PROVIDES_BANNER_PATTERNS, HolidayServerBannerPatternTags.TATER_PATTERN_ITEM));
 
     public static final Item HOPPER_MITE = register("hopper_mite", settings -> new HopperMiteItem(settings
         .maxCount(1)));
@@ -52,6 +54,16 @@ public final class HolidayServerItems {
 
     public static final Item GOLDEN_HOPPER = register("golden_hopper", settings -> new BlockItem(HolidayServerBlocks.GOLDEN_HOPPER, settings
         .useBlockPrefixedTranslationKey()));
+
+    public static final Potion HASTE_POTION = Registry.register(
+        Registries.POTION,
+        RegistryKey.of(RegistryKeys.POTION, CommonEntrypoint.identifier("haste_potion")),
+        new Potion("haste", new StatusEffectInstance(
+            StatusEffects.HASTE,
+            9600,
+            2
+        ))
+    );
 
     public static Item register(String id, Item.Settings settings) {
         return register(keyOf(id), Item::new, settings);
@@ -99,11 +111,6 @@ public final class HolidayServerItems {
         Item item = factory.apply(settings);
 
         return Registry.register(Registries.ITEM, key, item);
-    }
-
-
-    private static TagKey<BannerPattern> patternTagOf(String id) {
-        return TagKey.of(RegistryKeys.BANNER_PATTERN, CommonEntrypoint.identifier(id));
     }
 
     public static boolean isAbsolutelySafe(Entity entity) {
